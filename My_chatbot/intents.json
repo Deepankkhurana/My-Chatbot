@@ -1,0 +1,83 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day", "Wassup?", "What's up"],
+         "responses": ["Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me", "Great"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered","Make yourselt useful"],
+         "responses": ["I can provide you my creator's Personal Information, Professional Information, Skills, Contact Information and Much more"],
+         "context": [""]
+        },
+        {"tag": "p_information",
+        "patterns": ["do you know him personally"],
+        "responses": ["Yes, I know him personally"],
+        "context": [""]
+        },
+        {"tag": "personal_information",
+         "patterns": ["Give me personal information", "what's his personal info", "personal", "personal Information" ],
+         "responses": ["Name: Deepank Khurana, Age: 27, Blood Group: A+"],
+         "context": [""]
+        },
+        {"tag": "professional_information",
+         "patterns": ["Give me professional information", "do you know him professionally", "what's his professional info", "professional", "professional Information" ],
+         "responses": ["Deepank has 4 years of professional Experience. He is currently interning at Dassault systemes as Research and Development Intern. He has previously worked as Team Lead in RDV Trading and Application Development Analyst in Accenture"],
+         "context": [""]
+        },
+        {"tag": "skills",
+         "patterns": ["I want to know his skills", "Deepank's Skills", "Tell me his skills", "skills", "What are his skills", "what is he proficient at","What he is good at"],
+         "responses": ["Deepank is skilled in Python Coding and Scripting, Machine Learning, Web Development, Database management. You can find more about him at deepankkhurana.github.io"],
+         "context": [""]
+        },
+        {"tag": "accomplishments",
+         "patterns": ["What are his accomplishment", "What has Deepank accomplished", "Major Accomplishments"],
+         "responses": ["Deepank received 100% scholarship in undergraduation, Deepank has received 'Performer of the month' award 5 times in Accenture. Deepank also won inter college chess championship during undergraduation"],
+         "context": [""]
+        },
+        {"tag": "hobbies",
+         "patterns": ["what are his hobbies", "hobbies", "Deepank's hobbies", "what he likes to do", "What he loves to do" ],
+         "responses": ["Deepank loves to Read, watch shows & movies, play Cricket, travel etc."],
+         "context": [""]
+        },
+        {"tag": "quarantine",
+         "patterns": ["How is your quarantine going", "how are you spending your quarantine days","how is Deepank spending his quaratine days", "quarantine","what are you upto during quarantine"],
+         "responses": ["I am improving my abilities to interpret text even better. Deepank's also doing great! How about you?"],
+         "context": [""]
+        },
+        {"tag": "contact",
+         "patterns": ["Contact information", "how can i contact him", "what is his phone number", "what is his address", "what is his email id" ],
+         "responses": ["Deepank's phone number is 6179599013, email id is khurana.d@husky.neu.edu and address is 3110, washington street"],
+         "context": [""]
+        },
+        {"tag": "language",
+         "patterns": ["What language does Deepank know", "What does he code in", "language"],
+         "responses": ["Deepank is proficient in Python, JavaScript and Java"],
+         "context": [""]
+        },
+        {"tag": "web_development_skills",
+         "patterns": ["How are Deepank's web development skills","web development", "what framework does he know in web development"],
+         "responses": ["Deepank is proficient in React, Angular, Javascript, Bootstrap, CSS, Html5, JQuery etc. Deepank has also taught Web development as Teaching Assistant at Northeastern University."],
+         "context": [""]
+        },
+        {"tag": "machine_learning_skills",
+         "patterns": ["How are Deepank's Machine Learning skills","Data Science", "Does deepank knows Machine learning", "does Deepank know Data Science"],
+         "responses": ["Deepank is proficient in python. Deepank has done various projects in Data Analytics and Machine learning. Deepank knows unsupervised learning, supervised learning, reinforcement learning, Deep neural network and Computer vision."],
+         "context": [""]
+        }
+   ]
+}
